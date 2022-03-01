@@ -1,0 +1,77 @@
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #5b00a1;
+  border-radius: 5px;
+  color: #818181;
+}
+
+.form-container input:focus-visible,
+.form-container select:focus-visible,
+.form-container textarea:focus-visible {
+  outline: none;
+  border-color: #b200df;
+}
+
+.form-container {
+  margin: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #818181;
+  padding: 20px;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-container h3 {
+  color: #23003e;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.form-container input {
+  padding: 10px;
+  background: transparent;
+}
+
+.form-container .btn-div {
+  margin-top: 50px;
+}
+
+.form-container button {
+  padding: 5px 50px;
+  text-transform: uppercase;
+  background-color: #ff2300;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.form-container .error {
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-container {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form-container {
+    width: 300px;
+  }
+}
